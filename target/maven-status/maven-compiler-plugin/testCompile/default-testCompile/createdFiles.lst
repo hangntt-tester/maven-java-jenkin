@@ -1,7 +1,0 @@
-com\nopcommerce\user\User_01_Register.class
-com\nopcommerce\user\User_02_Login.class
-com\nopcommerce\user\User_03_My_Account.class
-datatest\user\RegisterLogindata.class
-datatest\user\MyAccountdata.class
-datatest\user\RegisterLogindata$RegisterLogin.class
-datatest\user\MyAccountdata$CustomerInfo.class

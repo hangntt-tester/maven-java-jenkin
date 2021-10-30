@@ -1,6 +1,7 @@
 package com.nopcommerce.user;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -89,12 +90,12 @@ public class User_03_My_Account extends BaseTest {
 	}
 	
 	
-//	@Parameters({ "browser" })
-//	@AfterClass(alwaysRun = true)
-//	public void cleanClass(String browserName) {
-//		log.info("Post-Condition: Close browser'" + browserName + "'");
-//		cleanDriverInstance();
-//	}
+	@Parameters({ "browser" })
+	@AfterClass(alwaysRun = true)
+	public void cleanClass(String browserName) {
+		log.info("Post-Condition: Close browser'" + browserName + "'");
+		cleanDriverInstance();
+	}
 	
 	HomePO homePage;
 	LoginPO loginPage;
