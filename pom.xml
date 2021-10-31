@@ -155,7 +155,7 @@
 				<configuration>
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/test/resources//maven-java-jenkin/src/test/resources/runUserNopcommerceTestcase.xml</file>
+						<file>src/test/resources/runUserNopcommerceTestcase.xml</file>
 					</suiteXmlFiles>
 
 					<!-- Argument -->
