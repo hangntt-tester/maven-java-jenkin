@@ -89,6 +89,10 @@ public class User_03_My_Account extends BaseTest {
 		verifyTrue(myAccountPage.isCheckboxByLabelSelected(driver, "Newsletter:"));
 	}
 	
+	@Test
+	public void My_Account_02_Customer_Info() {
+		
+	}
 	
 	@Parameters({ "browser" })
 	@AfterClass(alwaysRun = true)
